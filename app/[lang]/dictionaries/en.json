@@ -1,0 +1,21 @@
+{
+  "trending": "Trending",
+  "new_release": "New Release",
+  "coming_soon": "Coming Soon",
+  "favourites": "Favourites",
+  "watch_later": "Watch Later",
+  "release_date": "Release Date",
+  "average_vote": "Average Vote",
+  "vote_count": "Vote Count",
+  "popularity": "Popularity",
+  "stream": "Stream In HD",
+  "download": "Download In HD",
+  "copyright": "Copyright",
+  "copyright_date": "2023",
+  "copyright_reserved": "All rights reserved by Learn with Sumit",
+  "details": "Details",
+  "page_notfound": "The page you are looking for is not found.",
+  "go_back_homepage": "Go back to",
+  "home_page": "Home Page",
+  "id_page_notfound": "This movie with id was not found"
+}
