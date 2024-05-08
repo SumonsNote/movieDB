@@ -4,7 +4,8 @@ import Link from "next/link";
 import { useParams } from "next/navigation";
 
 export default function MovieNotFound() {
-  const { id } = useParams();
+  const { id, lang } = useParams();
+
   return (
     <div className="flex items-center justify-center h-screen  flex-col">
       <h2 className="text-4xl">

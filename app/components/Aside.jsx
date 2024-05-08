@@ -4,7 +4,7 @@ import Link from "next/link";
 export default async function Aside({ dict }) {
   return (
     <aside>
-      <ul class="space-y-2">
+      <ul class="space-y-2 sticky top-24">
         <li>
           <Link
             class="flex items-center space-x-2 px-5 py-3.5 rounded-lg bg-primary text-black"
