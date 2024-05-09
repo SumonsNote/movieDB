@@ -9,7 +9,7 @@ export default function Figure({ movie, dict }) {
   return (
     <figure class="p-4 border border-black/10 shadow-sm dark:border-white/10 rounded-xl">
       <Image
-        class="w-full object-cover"
+        class="w-full object-cover rounded-md"
         src={movie.poster_path}
         alt="poaster path"
         width={1000}
