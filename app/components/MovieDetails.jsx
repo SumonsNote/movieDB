@@ -8,7 +8,7 @@ export default async function MovieDetails({ id, dict }) {
     <section>
       <div>
         <Image
-          class="w-full object-cover max-h-[300px] lg:max-h-[500px] rounded-md"
+          class="w-full object-cover border-2 border-primary max-h-[300px] lg:max-h-[500px] rounded-md"
           src={movie.backdrop_path}
           height={1200}
           width={1900}
@@ -19,7 +19,7 @@ export default async function MovieDetails({ id, dict }) {
       <div class="grid grid-cols-12 py-12 gap-8">
         <div class="col-span-2">
           <Image
-            className="rounded-md"
+            className="rounded-md border-2 border-primary"
             src={movie.poster_path}
             height={720}
             width={460}

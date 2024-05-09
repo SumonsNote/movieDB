@@ -7,7 +7,7 @@ export default async function MoviePage({ params: { id, lang } }) {
 
   return (
     <Modal>
-      <MovieDetails id={id} dict={dict} />;
+      <MovieDetails id={id} dict={dict} />
     </Modal>
   );
 }

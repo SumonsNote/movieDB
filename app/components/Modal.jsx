@@ -40,7 +40,7 @@ export default function Modal({ children }) {
     >
       <div
         ref={wrapper}
-        className="max-w-full h-full overflow-auto p-28 backdrop-filter backdrop-blur-sm"
+        className="max-w-full h-full overflow-auto p-28 bg-dark"
       >
         {children}
       </div>
